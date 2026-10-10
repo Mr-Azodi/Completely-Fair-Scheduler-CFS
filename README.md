@@ -31,7 +31,7 @@ A simple Python implementation of the **Completely Fair Scheduler (CFS)** algori
 
 ---
 
-## 🎯 About the Project
+##  About the Project
 
 This project was created as part of the **Real-Time and Embedded Systems** course. The goal was to understand how modern operating systems like Linux manage CPU time fairly among competing tasks.
 
@@ -39,7 +39,7 @@ The program is written entirely in **Python 3** with **no external dependencies*
 
 ---
 
-## 🧠 What is CFS?
+##  What is CFS?
 
 **CFS (Completely Fair Scheduler)** is a scheduling algorithm that tries to divide CPU time **equally** among all ready tasks.
 
@@ -49,7 +49,7 @@ This naturally prevents **starvation** — no task is ever left waiting forever.
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 Each task keeps a **score** (a simple counter):
 
@@ -62,25 +62,25 @@ That's it. No complex math, no priorities, no quantum tuning.
 
 ---
 
-## ✨ Features
+##  Features
 
-- ✅ Simple and readable Python code (no external libraries)
-- ✅ Step-by-step trace of every scheduling decision
-- ✅ Final result table with waiting and turnaround times
-- ✅ Standard Gantt chart for visualization
-- ✅ Fairness report showing how balanced CPU usage was
-- ✅ Works with any number of tasks
+-  Simple and readable Python code (no external libraries)
+-  Step-by-step trace of every scheduling decision
+-  Final result table with waiting and turnaround times
+-  Standard Gantt chart for visualization
+-  Fairness report showing how balanced CPU usage was
+-  Works with any number of tasks
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 - **Python 3.7 or higher**
 - No external packages required
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 Clone the repository:
 
@@ -93,7 +93,7 @@ Or just download the file `cfs_simple_output.py` directly.
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 Run the script:
 
@@ -136,7 +136,7 @@ Task 3:
 
 ---
 
-## 🧪 Example Run
+##  Example Run
 
 ### Input
 
@@ -293,7 +293,7 @@ T3      8       44.4%     +2.0 (more)
 
 ---
 
-## 📊 Output Sections
+##  Output Sections
 
 The program produces **four** output sections:
 
@@ -316,7 +316,7 @@ Compares each task's CPU share against the ideal equal share and shows the devia
 ---
 
 
-## 📚 Concepts Explained
+##  Concepts Explained
 
 ### What is a "score"?
 It's just a counter. Every time a task runs, its score goes up by 1. Tasks that have run less have lower scores — so they get picked next.
@@ -330,36 +330,23 @@ When a new task arrives, its score starts at 0 — so it immediately has the low
 ### Does it have starvation?
 No. Every task's score keeps growing only when it runs. Tasks that haven't run keep a low score and will always eventually be picked.
 
----
-
-## 📈 Comparison with Other Algorithms
-
-| Algorithm      | Preemptive | Fair | Starvation | Used in          |
-|----------------|:----------:|:----:|:----------:|------------------|
-| FCFS           | ❌         | ❌   | ❌         | Simple systems   |
-| SJF            | ❌         | ❌   | ✅         | Batch systems    |
-| Round Robin    | ✅         | ✅   | ❌         | Time-sharing     |
-| Priority       | ✅         | ❌   | ✅         | RTOS             |
-| **CFS**        | ✅         | ✅   | ❌         | **Linux kernel** |
-
-CFS combines **fairness** with **preemption** — that's why Linux uses it.
 
 ---
 
 ## 🇮🇷 Persian Explanation (توضیح فارسی)
 
-### 📌 CFS چیست؟
+###  CFS چیست؟
 
-**CFS** یا **زمان‌بند کاملاً منصفانه** 
+**زمان بند کاملاً منصفانه** یا **CFS**
 یک الگوریتم زمان‌بندی است که در سیستم‌عامل لینوکس به‌عنوان زمان‌بند پیش‌فرض پردازنده استفاده می‌شود. هدف این الگوریتم، تقسیم عادلانه زمان پردازنده بین همه تسک‌های آماده است.
 
-### 🧠 ایده اصلی
+###  ایده اصلی
 
 به‌جای استفاده از اولویت‌های ثابت یا برش‌های زمانی مشخص، CFS ردیابی می‌کند که هر تسک چه مقدار از CPU را مصرف کرده است. تسکی که **کمترین مصرف** را داشته، در مرحله بعد اجرا می‌شود.
 
 این کار به‌طور طبیعی از **گرسنگی (Starvation)** جلوگیری می‌کند — هیچ تسکی برای همیشه منتظر نمی‌ماند.
 
-### ⚙️ نحوه کار
+###  نحوه کار
 
 هر تسک یک **امتیاز** (شمارنده ساده) دارد:
 
@@ -368,7 +355,7 @@ CFS combines **fairness** with **preemption** — that's why Linux uses it.
 3. اگر تسکی تمام شود، از لیست آماده‌ها حذف می‌شود.
 4. اگر CPU بی‌کار باشد، به زمان ورود تسک بعدی می‌پریم.
 
-### ✨ ویژگی‌ها
+###  ویژگی‌ها
 
 - کد پایتون ساده و خوانا (بدون کتابخانه خارجی)
 - نمایش گام‌به‌گام هر تصمیم زمان‌بندی
@@ -376,7 +363,7 @@ CFS combines **fairness** with **preemption** — that's why Linux uses it.
 - نمودار گانت برای نمایش ترتیب اجرا
 - گزارش انصاف برای مقایسه سهم هر تسک از CPU
 
-### 📥 نحوه اجرا
+###  نحوه اجرا
 
 اسکریپت را اجرا کنید:
 
@@ -392,7 +379,7 @@ python cfs_simple_output.py
 | Arrival | زمان ورود تسک به سیستم | `0` |
 | Burst | مقدار زمان CPU موردنیاز | `6` |
 
-### 📊 بخش‌های خروجی
+###  بخش‌های خروجی
 
 برنامه **چهار** بخش خروجی تولید می‌کند:
 
@@ -401,7 +388,7 @@ python cfs_simple_output.py
 3. **نمودار گانت:** نمایش متنی ترتیب اجرای تسک‌ها.
 4. **بررسی انصاف:** مقایسه سهم CPU هر تسک با سهم ایده‌آل مساوی و نمایش انحراف.
 
-### 📚 مفاهیم کلیدی
+###  مفاهیم کلیدی
 
 **امتیاز (score) چیست؟**
 یک شمارنده ساده است. هر بار که تسک اجرا می‌شود، یک واحد به آن اضافه می‌شود. تسک‌هایی که کمتر اجرا شده‌اند امتیاز کمتری دارند — بنابراین در نوبت بعدی انتخاب می‌شوند.
@@ -417,11 +404,11 @@ python cfs_simple_output.py
 
 ### 🏁 جمع‌بندی
 
-CFS یک الگوریتم ساده ولی قدرتمند است که به‌جای اولویت‌های پیچیده، از یک ایده ساده استفاده می‌کند: **همه تسک‌ها باید به‌طور مساوی از CPU استفاده کنند**. همین ایده ساده باعث شده لینوکس از این الگوریتم به‌عنوان زمان‌بند پیش‌فرض خود استفاده کند.
+ یک الگوریتم ساده ولی قدرتمند است که به‌جای اولویت‌های پیچیده، از یک ایده ساده استفاده می‌کند: **همه تسک‌ها باید به‌طور مساوی از CPU استفاده کنند**. همین ایده ساده باعث شده لینوکس از این الگوریتم به‌عنوان زمان‌بند پیش‌فرض خود استفاده کند.CFS
 
 ---
 
-## 🏷 Topics
+##  Topics
 
 ```
 python
@@ -437,22 +424,17 @@ fair-scheduling
 
 ---
 
-## 📝 License
 
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-## 👤 Author
+##  Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@your-username](https://github.com/Mr-Azodi)
 - Course: Real-Time and Embedded Systems
 - University: [Your University]
 
 ---
 
-## 🙏 Acknowledgements
+##  Acknowledgements
 
 - Inspired by the Linux kernel's CFS implementation
 - Based on concepts from *Operating System Concepts* by Silberschatz et al.
