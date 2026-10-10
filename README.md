@@ -17,7 +17,7 @@ A simple Python implementation of the **Completely Fair Scheduler (CFS)** algori
 - [Features](#-features)
 - [Requirements](#-requirements)
 - [Installation](#-installation)
-- [Usage](##usage)
+- [Usage](#-usage)
 - [Example Run](#-example-run)
 - [Output Sections](#-output-sections)
 - [Project Structure](#-project-structure)
@@ -85,7 +85,7 @@ just download the file `Completely_Fair_Scheduler.py` directly.
 
 ---
 
-##Usage
+##  Usage
 
 Run the script:
 
