@@ -23,7 +23,6 @@ A simple Python implementation of the **Completely Fair Scheduler (CFS)** algori
 - [Concepts Explained](#concepts-explained)
 - [Persian Explanation (توضیح فارسی)](#persian-explanation-توضیح-فارسی)
 - [Topics](#topics)
-- [License](#license)
 - [Author](#author)
 
 ---
