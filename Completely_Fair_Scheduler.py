@@ -1,4 +1,4 @@
-# cfs_simple_output.py
+# Completely_Fair_Scheduler.py
 # CFS - Completely Fair Scheduler
 # Simple and readable output
 
