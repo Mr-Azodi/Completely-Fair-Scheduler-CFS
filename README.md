@@ -81,14 +81,7 @@ That's it. No complex math, no priorities, no quantum tuning.
 
 ##  Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/cfs-scheduler.git
-cd cfs-scheduler
-```
-
-Or just download the file `cfs_simple_output.py` directly.
+just download the file `Completely_Fair_Scheduler.py` directly.
 
 ---
 
@@ -97,7 +90,7 @@ Or just download the file `cfs_simple_output.py` directly.
 Run the script:
 
 ```bash
-python cfs_simple_output.py
+python Completely_Fair_Scheduler.py
 ```
 
 Then enter the number of tasks and their details.
@@ -367,7 +360,7 @@ No. Every task's score keeps growing only when it runs. Tasks that haven't run k
 اسکریپت را اجرا کنید:
 
 ```bash
-python cfs_simple_output.py
+python Completely_Fair_Scheduler.py
 ```
 
 سپس تعداد تسک‌ها و اطلاعات هر کدام را وارد کنید:
@@ -429,7 +422,7 @@ fair-scheduling
 **Your Name**
 - GitHub: [@your-username](https://github.com/Mr-Azodi)
 - Course: Real-Time and Embedded Systems
-- University: [Your University]
+- University: [Eshragh University]
 
 ---
 
