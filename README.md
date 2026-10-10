@@ -418,7 +418,7 @@ fair-scheduling
 ##  Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/Mr-Azodi)
+- GitHub: [@Mr-Azodi](https://github.com/Mr-Azodi)
 - Course: Real-Time and Embedded Systems
 - University: [Eshragh University]
 
