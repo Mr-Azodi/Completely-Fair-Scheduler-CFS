@@ -1,7 +1,6 @@
 # CFS — Completely Fair Scheduler
 
 ![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg)
 ![Platform](https://img.shields.io/badge/platform-cross--platform-lightgrey.svg)
 ![Course](https://img.shields.io/badge/course-real--time%20%26%20embedded-orange.svg)
@@ -402,9 +401,9 @@ python cfs_simple_output.py
 **آیا گرسنگی (Starvation) دارد؟**
 خیر. امتیاز هر تسک فقط وقتی که اجرا می‌شود افزایش می‌یابد. تسک‌هایی که اجرا نشده‌اند امتیاز کمی دارند و همیشه در نهایت انتخاب می‌شوند.
 
-### 🏁 جمع‌بندی
+###  جمع‌بندی
 
- یک الگوریتم ساده ولی قدرتمند است که به‌جای اولویت‌های پیچیده، از یک ایده ساده استفاده می‌کند: **همه تسک‌ها باید به‌طور مساوی از CPU استفاده کنند**. همین ایده ساده باعث شده لینوکس از این الگوریتم به‌عنوان زمان‌بند پیش‌فرض خود استفاده کند.CFS
+الگوریتم زمان بند کاملاً منصفانه یا به اختصار CFS یک الگوریتم ساده ولی قدرتمند است که به‌جای اولویت‌های پیچیده، از یک ایده ساده استفاده می‌کند: **همه تسک‌ها باید به‌طور مساوی از CPU استفاده کنند**. همین ایده ساده باعث شده لینوکس از این الگوریتم به‌عنوان زمان‌بند پیش‌فرض خود استفاده کند.
 
 ---
 
