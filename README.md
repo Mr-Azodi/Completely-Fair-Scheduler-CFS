@@ -11,7 +11,7 @@ A simple Python implementation of the **Completely Fair Scheduler (CFS)** algori
 
 ##  Table of Contents
 
-- [About the Project](#-about-the-project)
+- [About the Project](#about-the-project)
 - [What is CFS?](#-what-is-cfs)
 - [How It Works](#-how-it-works)
 - [Features](#-features)
