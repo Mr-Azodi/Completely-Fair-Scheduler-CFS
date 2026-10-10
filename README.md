@@ -315,17 +315,6 @@ Compares each task's CPU share against the ideal equal share and shows the devia
 
 ---
 
-## 📁 Project Structure
-
-```
-cfs-scheduler/
-│
-├── cfs_simple_output.py    # Main program
-├── README.md               # This file
-└── LICENSE                 # MIT License
-```
-
----
 
 ## 📚 Concepts Explained
 
@@ -361,7 +350,8 @@ CFS combines **fairness** with **preemption** — that's why Linux uses it.
 
 ### 📌 CFS چیست؟
 
-**CFS** یا **زمان‌بند کاملاً منصفانه** یک الگوریتم زمان‌بندی است که در سیستم‌عامل لینوکس به‌عنوان زمان‌بند پیش‌فرض پردازنده استفاده می‌شود. هدف این الگوریتم، تقسیم عادلانه زمان پردازنده بین همه تسک‌های آماده است.
+**CFS** یا **زمان‌بند کاملاً منصفانه** 
+یک الگوریتم زمان‌بندی است که در سیستم‌عامل لینوکس به‌عنوان زمان‌بند پیش‌فرض پردازنده استفاده می‌شود. هدف این الگوریتم، تقسیم عادلانه زمان پردازنده بین همه تسک‌های آماده است.
 
 ### 🧠 ایده اصلی
 
