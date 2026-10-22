@@ -40,15 +40,14 @@ This naturally prevents **starvation** — no task is ever left waiting forever.
 
 ---
 ---
-
-# Practice 1
+## Practice 1
 CFS algorithm in Python and generating output
 
 ## تمرین 1
 نوشتن الگوریتم CFS به زبان پایتون و گرفتن خروجی از آن به همراه تصویر
 
 ---
-
+---
 ## Practice 2
 Write an article (20+ pages) in English about the CFS algorithm.
 Discuss its differences compared to the RM and EDF algorithms.
@@ -60,14 +59,14 @@ Write the pseudocode for the algorithm.
 تفاوت های آن با دو الگوریتم RM و EDF 
 رسم فلوچارت و گانت چارت الگوریتم
 نوشتن psuducode الگوریتم
-
+---
 ---
 ## Practice 3
 Creating a video clip on how the CFS algorithm works
 
 ## تمرین 3
 ساخت کلیپ از نحوه عملگرد الگوریتم CFS 
-
+---
 ---
 ## Practice 4
 A) Provide an example of a Gantt chart for the EDF algorithm with 3 processes.
@@ -78,7 +77,7 @@ B) Provide an example of a Gantt chart for the RM algorithm with 3 processes.
 الف )نمودار گان چارت برای الگوریتم EDF مثال بزنید با 3 فرایند 
 روی کاغذ 
 ب)نمودار گان چارت برای الگوریتم RM مثال بزنید با 3 فرایند
-
+---
 ---
 ##  Topics
 
