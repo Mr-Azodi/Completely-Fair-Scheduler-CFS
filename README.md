@@ -39,6 +39,7 @@ Instead of using fixed priorities or time slices, CFS tracks how much CPU each t
 This naturally prevents **starvation** — no task is ever left waiting forever.
 
 ---
+---
 
 ## Practice 1
 CFS algorithm in Python and generating output
@@ -47,6 +48,7 @@ CFS algorithm in Python and generating output
 نوشتن الگوریتم CFS به زبان پایتون و گرفتن خروجی از آن به همراه تصویر
 
 ---
+___
 ## Practice 2
 Write an article (20+ pages) in English about the CFS algorithm.
 Discuss its differences compared to the RM and EDF algorithms.
